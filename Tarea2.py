@@ -71,7 +71,7 @@ def printcamino(camino, i, s):
 	if (i != s):
 		
 		if (camino[i] == -1):	
-			print("camino not found!!")
+			print("camino no encontrado")
 			return;	
 		printcamino(camino, camino[i], s)
 		print(camino[i]+1)
