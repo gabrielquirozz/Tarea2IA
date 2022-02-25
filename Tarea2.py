@@ -106,5 +106,3 @@ print("\nCamino optimo para llegar al nodo destino es:")
 printcamino(camino, fin, origen)
 
 
-# SUDOKU
-
